@@ -1,2 +1,2 @@
 # Shortcut
-Some quick tools like Keyboard Maestro actions and such.
+一些方便的工具
