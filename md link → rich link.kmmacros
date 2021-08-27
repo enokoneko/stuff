@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>651772786.50131404</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>Captures</key>
+						<array>
+							<string></string>
+							<string>TITLEvar</string>
+							<string>URLvar</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>SearchRegEx</string>
+						<key>Search</key>
+						<string>(?:__|[*#])|\[(.+?)]\((.+?)\)</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>NAME="$KMVAR_TITLEvar"
+LINK="$KMVAR_URLvar"
+echo "&lt;a href='$LINK'&gt;$NAME&lt;/a&gt;" | textutil -inputencoding UTF-8 -format html -convert rtf -stdin -stdout | LC_CTYPE=UTF-8 pbcopy</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>DELETE TITLEVAR</string>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>TITLEvar</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>DELETE URLVAR</string>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>URLvar</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>651772442.27443504</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>651772444.62126195</real>
+				<key>Name</key>
+				<string>md link → rich link copy</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>MacroPalette</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A6B97368-91C2-4B58-AA5B-975E00133515</string>
+			</dict>
+		</array>
+		<key>ToggleMacroUID</key>
+		<string>C4CF297E-2CC6-43FB-B25F-ADCC207A35B6</string>
+		<key>UID</key>
+		<string>61246A09-4C88-4B5F-AE1A-086E858DBEA2</string>
+	</dict>
+</array>
+</plist>
