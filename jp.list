@@ -1,0 +1,19 @@
+# Line
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,line.naver.jp
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-cdn.net
+DOMAIN-SUFFIX,line-scdn.net
+USER-AGENT,Line*
+
+# Spotify
+USER-AGENT,Spotify*
+DOMAIN-KEYWORD,-spotify-
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
+DOMAIN-SUFFIX,spotifycdn.net
