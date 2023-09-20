@@ -10,8 +10,6 @@
 # RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,Proxy
 # RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list,Proxy
 
-PROCESS-NAME,/Applications/Multi.app/Contents/MacOS/Multi
-
 # Top Blocked Sites
 DOMAIN-SUFFIX,4sqi.net
 DOMAIN-SUFFIX,a248.e.akamai.net
@@ -75,7 +73,6 @@ DOMAIN-SUFFIX,kik.com
 DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,kobobooks.com
 DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,macrumors.com
