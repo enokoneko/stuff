@@ -1,0 +1,13 @@
+// 想给拆分窗口加快捷键，直接写"command": "split_view"无效，得用以前的"clone_file"命令加两个"args"参数。
+// 参考：https://forum.sublimetext.com/t/st4-keyboard-shortcut-for-file-split-view/59547/2
+
+[
+	{
+		"keys": ["super+shift+o"],
+		"command": "clone_file",
+		"args": {
+			"add_to_selection": true,
+			"retain_viewport_position": true
+		},
+	},
+]
